@@ -10,3 +10,6 @@ yum install -y bzip2 autoconf automake libtool bison iconv-devel
 curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
 curl -L get.rvm.io | bash -s stable
 source /etc/profile.d/rvm.sh
+rvm install 2.1.2
+gem install rails
+yum install -y nodejs
