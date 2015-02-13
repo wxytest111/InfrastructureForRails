@@ -12,4 +12,6 @@ curl -L get.rvm.io | bash -s stable
 `source /etc/profile.d/rvm.sh`
 rvm install 2.1.2
 rvm use 2.1.2
+rvm --default 2.1.2
+gem install rake
 gem install rails --version 4.2.0
