@@ -10,6 +10,7 @@ yum install -y nodejs bzip2 autoconf automake libtool bison iconv-devel
 
 yum install -y mysql mysql-server
 
+yum install -y nginx
 curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
 curl -L get.rvm.io | bash -s stable
 `source /etc/profile.d/rvm.sh`
