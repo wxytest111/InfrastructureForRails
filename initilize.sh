@@ -8,7 +8,7 @@ yum install -y gcc-c++ patch readline readline-devel zlib zlib-devel
 yum install -y libyaml-devel libffi-devel openssl-devel make 
 yum install -y nodejs bzip2 autoconf automake libtool bison iconv-devel
 
-yum install -y mysql mysql-server
+yum install -y mysql mysql-devel mysql-server
 
 yum install -y nginx
 curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
